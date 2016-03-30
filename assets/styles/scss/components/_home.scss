@@ -6,24 +6,23 @@
 
 .home {
 
-  .home__cover__photo {
+  .home__cover {
     @include display(flex);
     @include justify-content(center);
     @include align-items(center);
-    @include flex-direction(column);
 
-    background: url('/assets/img/home-cover-code.png') $dark-blue center no-repeat;
-    height: 68vh;
+    background: url('/assets/img/savas_meeting_transparent.jpg') center no-repeat;
+    height: 88vh;
     text-align: center;
 
     // On medium screens, change height to account for menu height.
     @include media($horizontal-bar-mode) {
-      height: 58vh;
+      height: 78vh;
     }
 
     // On large screens, adjust height to account for menu height..
     @include media($large-screen-up) {
-      height: 68vh;
+      height: 88vh;
     }
 
     // On very large screens, allow background image to scale up to fill screen.
@@ -31,29 +30,41 @@
       background-size: 100% auto;
     }
 
-    img {
-      display: none;
-    }
+    .home__cover__center {
+      @include display(flex);
+      @include justify-content(center);
+      @include align-items(center);
+      @include flex-direction(column);
 
-    h1, p {
-      margin: 0;
-    }
+      background-color: $dark-blue;
+      border-radius: 50%;
+      height: 290px;
+      width: 290px;
 
-    i {
-      color: $teal;
-      padding-top: 10px;
-    }
+      img {
+        display: none;
+      }
 
-    .fa-code {
-      padding-bottom: 10px;
-    }
+      h1, p {
+        margin: 0;
+      }
 
-    .home__cover__site-description {
-      color: $base-background-color;
-      font-family: $heading-font;
-      font-size: 125%;
-      font-weight: bold;
-      width: 230px;
+      i {
+        color: $teal;
+        padding-top: 10px;
+      }
+
+      .fa-code {
+        padding-bottom: 10px;
+      }
+
+      .home__cover__site-description {
+        color: $base-background-color;
+        font-family: $heading-font;
+        font-size: 125%;
+        font-weight: bold;
+        width: 230px;
+      }
     }
   }
 
