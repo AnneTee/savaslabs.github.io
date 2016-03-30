@@ -11,7 +11,7 @@
     @include justify-content(center);
     @include align-items(center);
 
-    background: url('/assets/img/savas_meeting_transparent.jpg') center no-repeat;
+    background: url('/assets/img/savas_video_conference_transparent.jpg') center no-repeat;
     height: 88vh;
     text-align: center;
 
@@ -36,10 +36,10 @@
       @include align-items(center);
       @include flex-direction(column);
 
-      background-color: $dark-blue;
-      border-radius: 50%;
-      height: 290px;
-      width: 290px;
+      //background-color: $dark-blue;
+      //border-radius: 50%;
+      //height: 290px;
+      //width: 290px;
 
       img {
         display: none;
@@ -59,11 +59,11 @@
       }
 
       .home__cover__site-description {
-        color: $base-background-color;
+        //color: $base-background-color;
         font-family: $heading-font;
-        font-size: 125%;
+        font-size: 145%;
         font-weight: bold;
-        width: 230px;
+        max-width: 350px;
       }
     }
   }
