@@ -13,17 +13,17 @@
     @include flex-direction(column);
 
     background: url('/assets/img/home-cover-code.png') $dark-blue center no-repeat;
-    height: 88vh;
+    height: 68vh;
     text-align: center;
 
     // On medium screens, change height to account for menu height.
     @include media($horizontal-bar-mode) {
-      height: 78vh;
+      height: 58vh;
     }
 
     // On large screens, adjust height to account for menu height..
     @include media($large-screen-up) {
-      height: 88vh;
+      height: 68vh;
     }
 
     // On very large screens, allow background image to scale up to fill screen.
