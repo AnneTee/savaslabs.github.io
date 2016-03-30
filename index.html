@@ -8,24 +8,20 @@
   <body class="home">
 
     {% include header.html %}
-
-    <div class="page-content">
-        <div>
-            <section>
-                <div class="home-page-copy">
-                    <div class="logo">
-                        <img alt="Savas owl" src="{{ base.url }}/assets/img/owl.png">
-                    </div>
-                    <div class="tagline">
-                        <h1>Savas Labs</h1>
-                        <h4>{{ site.description }} <a href="/contact">Get in touch.</a></h4>
-                    </div>
-                </div>
-            </section>
-        </div>
+    <div class="home__cover">
+      <div class="home__cover__photo">
+        <h1>Savas Labs</h1>
+        <img src="{{ site.url }}/assets/img/logo.png" alt="Savas logo">
+        <i class="fa fa-code fa-lg"></i>
+        <p class="home__cover__site-description">{{ site.description }}</p>
+        <i class="fa fa-angle-double-down fa-lg"></i>
+      </div>
     </div>
 
     <div class="wrapper">
+      <div class="home-blog-list">
+        <h2>Our recent work</h2><br><br>
+      </div><hr>
       <div class="home-blog-list">
         <h2>Latest Posts</h2>
         <div class="flex-container">

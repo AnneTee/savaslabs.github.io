@@ -5,41 +5,55 @@
  */
 
 .home {
-  .page-content {
-    background: url('/assets/img/home.png');
 
-    .home-page-copy {
-      @include outer-container;
-      padding: 3% 0;
-      text-align: center;
+  .home__cover__photo {
+    @include display(flex);
+    @include justify-content(center);
+    @include align-items(center);
+    @include flex-direction(column);
 
-      @include media($medium-screen-up) {
-        .logo {
-          @include shift(1);
-          @include span-columns(3);
-        }
+    background: url('/assets/img/home-cover-code.png') $dark-blue center no-repeat;
+    height: 88vh;
+    text-align: center;
 
-        .tagline {
-          @include span-columns(7);
-        }
+    // On medium screens, change height to account for menu height.
+    @include media($horizontal-bar-mode) {
+      height: 78vh;
+    }
 
-        h4 {
-          padding: 0;
-        }
-      }
+    // On large screens, adjust height to account for menu height..
+    @include media($large-screen-up) {
+      height: 88vh;
+    }
 
-      h1 {
-        padding-top: 5%;
-      }
+    // On very large screens, allow background image to scale up to fill screen.
+    @include media(1200px) {
+      background-size: 100% auto;
+    }
 
-      h4 {
-        color: $base-background-color;
-        padding: 0 5%;
-      }
+    img {
+      display: none;
+    }
 
-      .logo img {
-        max-width: 125px;
-      }
+    h1, p {
+      margin: 0;
+    }
+
+    i {
+      color: $teal;
+      padding-top: 10px;
+    }
+
+    .fa-code {
+      padding-bottom: 10px;
+    }
+
+    .home__cover__site-description {
+      color: $base-background-color;
+      font-family: $heading-font;
+      font-size: 125%;
+      font-weight: bold;
+      width: 230px;
     }
   }
 
