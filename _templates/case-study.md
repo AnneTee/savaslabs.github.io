@@ -63,7 +63,14 @@ client to capture their needs within the design. We can highlight modern tools
 and design paradigms used in the process. We can also discuss UX design and
 describe our process and its benefits.
 
-### Discussion of audit process
+### Discussion of site discovery and/or the audit process
+
+Review the benefits of an in-depth site discovery process at the beginning of a
+project. Include establishing project-level goals and understanding deeper
+business-level goals and metrics by which to measure those goals (Google
+analytics, site profiling, user metrics, etc.) Emphasize that we're not just a
+technology firm, we're a partner in our clients' businesses so we want to
+understand their real needs, not simply fix their site or make it look better.
 
 If we performed an audit, we can talk about the process and the audit findings.
 We can highlight how the audit provided us with information used to accurately
@@ -82,6 +89,9 @@ could include:
 - Third party integration
 - Performance improvements
 - Commerce integration
+
+Discuss the work itself and why we chose the technologies we did. Good
+opportunity to highlight the advantages of open source software.
 
 ### Highlighting specific features improved
 
