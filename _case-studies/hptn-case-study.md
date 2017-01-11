@@ -46,15 +46,68 @@ project_results_image_alt: "The HPTN news page on multiple screen sizes."
 
 ---
 
-Eventually we can talk more about:
+## Designing with intention
 
-## Design
+Our design process is more than making things look good. To create a visual
+design, site architecture, and user experience that would signify a drastic
+improvement over their previous site and would serve their user base for years
+to come, we started by carefully gathering critical information from the HPTN
+team about their vision and goals.
 
-- Goals/personas, consulting around these items
+### Determining project and business-level goals
+
+The beginning of any project at Savas Labs involves identifying and prioritizing
+goals not only directly related to the project, but on a holistic level relative
+to the client's business. Determining these goals and agreeing upon them at the
+very beginning allows us to base the entire process, from design to coding to
+deployment and any scope change that may come up in between, on what's really
+important to the client on both short and long term bases. 
+
+Before diving into the web design process, we spent time with the HPTN team
+learning about what they wanted from the project and how it reflected their
+ultimate goals as a nonprofit. The HPTN team wanted a modern, responsive design
+and a user-friendly interface, built upon the latest technologies - namely,
+Drupal 8. To best engage their user base, they wanted an easy-to-use content
+editing interface so they could keep the site constantly updated with fresh and
+relevant content.
+
+On a larger scale, the HPTN team knew it was important for us to plan beyond the
+"ideal" user on the latest device with the fastest connection, since
+many of their users are on older devices in areas of the world with slower
+internet connections. We would need to present a seamless experience for these
+users, which meant avoiding a dependence on Javascript for critical interactions
+and ensuring great site performance. Ultimately, we needed to make sure the site
+could, for years to come, serve the HPTN's purpose: to be an easily accessed and
+navigable central location for news, resources, and information relevant to the
+HPTN community.
+
+### Creating and honing a new look
+
+
+
 - Styleguide
 - Branding/logo design
-- Design process
-- Wireframing
+
+### Navigating site architecture through wireframing
+
+
+
+Discuss the project goals more in depth and include how the goals were formed
+with the client, how the goals were to be measured from beginning to end, and
+how Savas Labs worked with the client to meet those goals. Describe how the
+project was run from a PM standpoint and how SL was able to guide the client
+through the process with transparency and expertise. Review how SL works and
+how our methodology applied to this project specifically.
+
+## Discussion of design process and user experience consulting
+
+Here we can highlight our design process and describe how we worked with the
+client to capture their needs within the design. We can highlight modern tools
+and design paradigms used in the process. We can also discuss UX design and
+describe our process and its benefits.
+
+
+
 
 ## Theme development
 
@@ -64,3 +117,68 @@ Eventually we can talk more about:
 ## Content management experience
 
 ## Integration with MsSQL server
+
+## Demonstrate benefit received by the client
+
+Something about "next steps" or "future collaboration?" or a summary?
+
+We referred to these goals constantly throughout
+the project, and reflect on these goals with the client as we continue our
+relationship post-launch. Using HPTN's principles to guide us as we prioritize
+work and make design decisions has helped us hone the website into something of
+great value to HPTN's team of content editors and stakeholders and to the
+network members they serve.
+
+If we captured metrics such as performance profiling, Google analytics, etc.
+we can share them here. We can also discuss less tangible results, such as
+client satisfaction, improved user experience, improved design, better
+adherence to modern design or accessibility standards, etc.
+
+## Discuss positive outcomes for the company
+
+If we have positive outcomes on our end from the project, we can highlight them
+here. Some examples would be a positive experience with a new technology that we
+look forward to using with other clients, working on a project that we believe
+does good in the world, or successfully employing a project management workflow.
+This is something often not included on other agencies' sites, but it fits
+with our personable, honest brand. Note that this isn't a place to say that we
+messed up and learned from it, or that we filled a gap in our knowledge. We want
+this to reflect well on the company!
+
+---
+
+## Image ideas
+
+Below are some ideas for images to be included, sorted into various categories.
+
+### Photography
+
+- A photograph from the website, used with permission
+- A photograph of the site being viewed on a device
+
+### Screenshots
+
+- A screenshot of a page, especially on a variety of devices
+- A comparison of the site before and after a redesign
+- A screenshot of a small, beautiful detail of the site (icons, a menu, a form, etc.)
+- A screenshot showing the way a user would interact with the site
+
+### Design
+
+- A photograph of a sketch or diagram drawn during the design phase
+- Wireframes used during design
+- Part of a styleguide, mood board, or style tiles
+
+### Information architecture
+
+- A photograph of diagrams or brainstorming notes
+- A screenshot or image of a diagram, flowchart, etc.
+- A screenshot of stubbed out, heavily commented code
+
+### Module development
+
+- A screenshot of the results from the front end of the site
+- A screenshot of functionality or customizations added to the Drupal admin UI
+- A screenshot demonstrating the ease of use of the admin interface
+- A screenshot of code
+- A photograph of a screen showing code (possibly blurry so actual code isn't clear)
