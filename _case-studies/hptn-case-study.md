@@ -83,14 +83,12 @@ HPTN community.
 
 ### Creating and honing a new look
 
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed ligula sodales, tempus tortor in, molestie lorem. Fusce a felis vitae risus condimentum ornare. Donec et eros felis. Integer et finibus est. Aenean suscipit elementum ullamcorper. Aliquam maximus ut metus ut elementum. Proin consequat semper arcu, et semper ipsum rutrum sit amet.
 
 - Styleguide
 - Branding/logo design
 
 ### Navigating site architecture through wireframing
-
-
 
 Discuss the project goals more in depth and include how the goals were formed
 with the client, how the goals were to be measured from beginning to end, and
@@ -99,26 +97,24 @@ project was run from a PM standpoint and how SL was able to guide the client
 through the process with transparency and expertise. Review how SL works and
 how our methodology applied to this project specifically.
 
-## Discussion of design process and user experience consulting
-
-Here we can highlight our design process and describe how we worked with the
-client to capture their needs within the design. We can highlight modern tools
-and design paradigms used in the process. We can also discuss UX design and
-describe our process and its benefits.
-
-
-
-
 ## Theme development
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed ligula sodales, tempus tortor in, molestie lorem. Fusce a felis vitae risus condimentum ornare. Donec et eros felis. Integer et finibus est. Aenean suscipit elementum ullamcorper. Aliquam maximus ut metus ut elementum. Proin consequat semper arcu, et semper ipsum rutrum sit amet.
 
 - We can go into a lot of detail here about integrating the styleguide with the theme, the tools we chose to use, and the fact that we built a custom theme completely from scratch
 - Talk about the benefits of D8 theming
 
 ## Content management experience
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed ligula sodales, tempus tortor in, molestie lorem. Fusce a felis vitae risus condimentum ornare. Donec et eros felis. Integer et finibus est. Aenean suscipit elementum ullamcorper. Aliquam maximus ut metus ut elementum. Proin consequat semper arcu, et semper ipsum rutrum sit amet.
+
 ## Integration with MsSQL server
 
-## Demonstrate benefit received by the client
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed ligula sodales, tempus tortor in, molestie lorem. Fusce a felis vitae risus condimentum ornare. Donec et eros felis. Integer et finibus est. Aenean suscipit elementum ullamcorper. Aliquam maximus ut metus ut elementum. Proin consequat semper arcu, et semper ipsum rutrum sit amet.
+
+## Project outcomes
+
+### For the client
 
 Something about "next steps" or "future collaboration?" or a summary?
 
@@ -134,7 +130,7 @@ we can share them here. We can also discuss less tangible results, such as
 client satisfaction, improved user experience, improved design, better
 adherence to modern design or accessibility standards, etc.
 
-## Discuss positive outcomes for the company
+## For the company
 
 If we have positive outcomes on our end from the project, we can highlight them
 here. Some examples would be a positive experience with a new technology that we

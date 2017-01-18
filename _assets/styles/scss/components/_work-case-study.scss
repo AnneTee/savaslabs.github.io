@@ -7,9 +7,16 @@
 // Case study pages.
 .case-study {
 
-  p {
-    font-size: 1.2em;
-    margin-bottom: 0;
+  .case-study__header__text,
+  .case-study__highlights,
+  .case-study__client,
+  .case-study__content,
+  .case-study__client-quote,
+  .case-study__client-quote--top {
+    p {
+      font-size: 1.2em;
+      margin-bottom: 0;
+    }
   }
 
   .case-study__highlights {
@@ -199,7 +206,24 @@
     }
   }
 
+  .case-study__narrative {
+    @include outer-container;
+    @include media($large-screen-up) {
+      @include span-columns(8);
+      @include shift(2);
+    }
+
+    h2 {
+      background-color: lighten($light-gray, 10);
+      padding: $base-spacing / 2 0;
+      text-align: center;
+    }
+
+    font-size: 1.2em;
+  }
+
   .view-more-link {
+    clear: both;
     margin-bottom: $base-margin;
   }
 }

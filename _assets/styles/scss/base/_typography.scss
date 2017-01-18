@@ -22,8 +22,8 @@ h6 {
 }
 
 // Add margin top for posts.
-.portfolio,
-.post {
+.post,
+.case-study__narrative {
   h2,
   h3,
   h4,
@@ -55,7 +55,8 @@ a {
 // Give inline links an underlined look.
 // scss-lint:disable ColorVariable
 p a,
-.post li a {
+.post li a,
+.case-study__narrative li a {
   border-bottom: .1em solid rgba(10, 83, 101, .1);
 
   &:hover,
